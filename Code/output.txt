@@ -1,0 +1,121 @@
+Decision Tree training time: 99.72860383987427
+Decision Tree prediction time: 0.1551680564880371
+Confusion matrix:
+[[3842   48   75   42  124]
+ [ 984 3164   33   29   53]
+ [1071   31 2798   19   21]
+ [ 796   24   28 3471   35]
+ [1235   52   41   30 2090]]
+Accuracy:  0.763061183949
+             precision    recall  f1-score   support
+
+   business       0.48      0.93      0.64      4131
+     health       0.95      0.74      0.83      4263
+   politics       0.94      0.71      0.81      3940
+     sports       0.97      0.80      0.87      4354
+ technology       0.90      0.61      0.72      3448
+
+avg / total       0.85      0.76      0.78     20136
+
+
+Naive Bayes training time: 0.3747692108154297
+Naive Bayes prediction time: 0.06983327865600586
+Confusion matrix:
+[[3351  171  248  141  220]
+ [ 161 3747  131   88  136]
+ [ 156  105 3514  114   51]
+ [ 139  142   95 3903   75]
+ [ 359  215  100  127 2647]]
+Accuracy:  0.852304330552
+             precision    recall  f1-score   support
+
+   business       0.80      0.81      0.81      4131
+     health       0.86      0.88      0.87      4263
+   politics       0.86      0.89      0.88      3940
+     sports       0.89      0.90      0.89      4354
+ technology       0.85      0.77      0.80      3448
+
+avg / total       0.85      0.85      0.85     20136
+
+
+Random forest training time: 103.38254690170288
+Random forest prediction time: 0.6824419498443604
+Confusion matrix:
+[[3740   84  117   60  130]
+ [ 451 3625   70   44   73]
+ [ 614   53 3191   38   44]
+ [ 428   66   59 3768   33]
+ [ 738  125   87   54 2444]]
+Accuracy:  0.832737385777
+             precision    recall  f1-score   support
+
+   business       0.63      0.91      0.74      4131
+     health       0.92      0.85      0.88      4263
+   politics       0.91      0.81      0.86      3940
+     sports       0.95      0.87      0.91      4354
+ technology       0.90      0.71      0.79      3448
+
+avg / total       0.86      0.83      0.84     20136
+
+
+
+KNN training time: 30.47489595413208
+KNN prediction time: 3794.312623977661
+Confusion matrix:
+[[3404   68  378   93  188]
+ [ 332 3436  291   90  114]
+ [ 233   55 3483  112   57]
+ [ 259   77  280 3679   59]
+ [ 561  133  322   97 2335]]
+Accuracy:  0.811332936035
+             precision    recall  f1-score   support
+
+   business       0.71      0.82      0.76      4131
+     health       0.91      0.81      0.86      4263
+   politics       0.73      0.88      0.80      3940
+     sports       0.90      0.84      0.87      4354
+ technology       0.85      0.68      0.75      3448
+
+avg / total       0.82      0.81      0.81     20136
+
+
+
+Logistic regression training time: 29.296756982803345
+Logistic regression prediction time: 0.06347227096557617
+Confusion matrix:
+[[3620   75  164   66  206]
+ [ 175 3787  123   62  116]
+ [ 164   47 3596   64   69]
+ [ 161   57   75 3995   66]
+ [ 354  115  107   77 2795]]
+Accuracy:  0.883641239571
+             precision    recall  f1-score   support
+
+   business       0.81      0.88      0.84      4131
+     health       0.93      0.89      0.91      4263
+   politics       0.88      0.91      0.90      3940
+     sports       0.94      0.92      0.93      4354
+ technology       0.86      0.81      0.83      3448
+
+avg / total       0.89      0.88      0.88     20136
+
+
+
+SVM training time: 4.747403144836426
+SVM prediction time: 0.10562801361083984
+Confusion matrix:
+[[3631   67  159   62  212]
+ [ 173 3806  110   58  116]
+ [ 169   36 3616   54   65]
+ [ 167   55   79 3990   63]
+ [ 336  112  118   65 2817]]
+Accuracy:  0.886968613429
+             precision    recall  f1-score   support
+
+   business       0.81      0.88      0.84      4131
+     health       0.93      0.89      0.91      4263
+   politics       0.89      0.92      0.90      3940
+     sports       0.94      0.92      0.93      4354
+ technology       0.86      0.82      0.84      3448
+
+avg / total       0.89      0.89      0.89     20136
